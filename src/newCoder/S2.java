@@ -20,9 +20,9 @@ public class S2 {
             if (isDNA(a)) {
                 currLength++;
             } else {
-                if (currLength > maxDNALength) maxDNALength = currLength;
                 currLength = 0;
             }
+            if (currLength > maxDNALength) maxDNALength = currLength;
         }
 
         System.out.println(maxDNALength);
