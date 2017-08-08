@@ -30,7 +30,7 @@ public class S3 {
         }
         else{
             for (int i = 0; i < n / 2; i++) {
-                if(s.charAt(i) != s.charAt(n - i - 1)) return false;
+                if(s.charAt(i) != s.charAt(n / 2 + i)) return false;
             }
         }
         return true;
